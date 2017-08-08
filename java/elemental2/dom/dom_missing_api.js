@@ -22,6 +22,15 @@
  * @externs
  */
 
+
+// Span element DOM interface
+// This type is defined in //javascript/externs/gecko_dom.js
+/**
+ * @constructor
+ * @extends {HTMLElement}
+ */
+function HTMLSpanElement() {}
+
 // API definition for Location type.
 // This type is defined in //javascript/externs/ie_dom.js and the standardized
 // part of its definition should be moved to //javascript/externs/w3c_dom2.js
